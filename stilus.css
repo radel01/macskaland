@@ -1,5 +1,5 @@
 .tarolo{
-    max-width: fit-content;
+    max-width: 800px;
     width: 80%;
     margin: auto;
     text-align: center;
@@ -8,18 +8,31 @@
 .fejlec{
     background-image: url(images/hero.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 600px;
     color: #ffffff;
+    background-position: bottom;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-height: 780px;
 }
 .menu ul{
     list-style-type: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap:0px;
     padding-left: 0px;
 }
 .menu li{
     padding: 10px;
+    margin: 0px;
+}
+#menupont1:hover{
+    background-color: white;
+    color: black;
+}
+#menupont2:hover{
+    background-color: white;
+    color: black;
 }
 .menu{
     padding:20px; 
@@ -29,28 +42,32 @@
     text-decoration: none;
 }
 #menupont1{
-    background-color: darkorange;
+    background-color: #CB7006;
     border-radius: 30px;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 30px 20px 30px;
     margin: auto;
     color: #ffffff; 
     height: fit-content;  
 }
 #menupont2{
-    background-color: darkorange;
+    background-color: #CB7006;
     border-radius: 30px;
     padding: 20px 20px 20px 20px;
     margin: auto;
     color: #ffffff; 
 }
 .gomb1{
-    background-color: darkorange;
+    background-color: #CB7006;
     border-radius: 30px;
     padding: 20px 50px 20px 50px;
     margin-top: 20px;
     text-align: center;
     text-decoration: none;
     color:#ffffff;
+}
+.gomb1:hover{
+    background-color: white;
+    color: black;
 }
 .fejlec p{
     color:#ffffff65;
@@ -71,12 +88,12 @@
 }
 .masodikMenu ul{
     list-style-type: none;
-    padding: 10;
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:30px;
 }
-.masosikMenu{
+.masodikMenu{
     padding:20px;
 }
 .masodikMenu ul a{
@@ -92,10 +109,48 @@
     margin: 0px;
 }
 #gomb2{
-    background-color: darkorange;
+    background-color: #CB7006;
     border-radius: 30px;
     padding: 20px 100px 20px 100px;
     margin: auto;
     color: #ffffff;  
     font-size: 20px;
+}
+#gomb2:hover{
+    background-color: white;
+    color: black;
+}
+
+/*harmadik div*/
+.harmadikKepek{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.harmadikKepek h1{
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+.norveg img{
+    border-radius: 30px;
+    max-width: 300px;
+}
+.maincoon img {
+    border-radius: 30px;
+    max-width: 300px;
+}
+.harmadik {
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    max-width:fit-content;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+.harmadikFejlec ul{
+    text-align: left;
 }
