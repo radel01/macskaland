@@ -99,6 +99,9 @@
 .masodikMenu ul a{
     text-decoration: none;
 }
+.masodikFejlec{
+    margin: 20px;
+}
 .masodikFejlec p{
     color: gray;
     padding: 10px 10px 50px 10px;
@@ -153,4 +156,133 @@
 }
 .harmadikFejlec ul{
     text-align: left;
+}
+#lista{
+    color: gray;
+}
+.harmadikFejlec li{
+    color: white;
+}
+.harmadikFejlec p{
+    color: gray;
+}
+.harmadikFejlec{
+    margin: 20px;
+}
+/*negyedik div*/
+.negyedikKepek{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.negyedikKepek h1{
+    margin-bottom: 0px;
+    font-size: 22px;
+    color: white;
+}
+.bengali img{
+    border-radius: 30px;
+    max-width: 300px;
+}
+.megez img {
+    border-radius: 30px;
+    max-width: 300px;
+}
+.negyedik {
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    max-width:fit-content;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+.negyedik h1{
+    color: white;
+}
+.negyedikFejlec ul{
+    text-align: left;
+    color: white;
+}
+.negyedikFejlec{
+    margin: 20px;
+}
+
+/*ötödik div*/
+.otodik {
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    max-width:fit-content;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+.otodikTartalom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    
+}
+.otodikFejlec h1{
+    font-size: 28px;
+    color: #ffffff;
+}
+.hal{
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 320px;
+    height: 320px;
+    margin-right: 30px;
+    text-align: left;
+    padding: 10px;
+}
+.hal img{
+    width: 90px;
+    height: 80px;
+    margin: 10px 0px 0px 10px;
+}
+.eger img{
+    width: 90px;
+    height: 80px;
+    margin: 10px 0px 0px 10px;
+}
+.eger{
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 320px;
+    height: 320px;
+    margin-left: 30px;
+    text-align: left;
+    padding: 10px;
+}
+.eger h1{
+    margin: 0px;
+}
+.hal h1{
+    margin: 0px;
+}
+.hal p{
+    padding-bottom: 10px;
+}
+#gomb3{
+    background-color: #CB7006;
+    border-radius: 30px;
+    padding: 20px 100px 20px 100px;
+    color: #ffffff;  
+    font-size: 20px;
+    text-decoration: none;
+}
+.gomb3{
+    margin: 35px 0px 0px 25px;
+}
+#gomb3:hover{
+    background-color: white;
+    color: black;
 }
