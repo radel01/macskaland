@@ -33,11 +33,11 @@
     padding: 10px;
     margin: 0px;
 }
-#menupont1:hover{
+.menupont1:hover{
     background-color: white;
     color: black;
 }
-#menupont2:hover{
+.menupont2:hover{
     background-color: white;
     color: black;
 }
@@ -48,7 +48,7 @@
 .menu ul a{
     text-decoration: none;
 }
-#menupont1{
+.menupont1{
     background-color: #CB7006;
     border-radius: 30px;
     padding: 20px 30px 20px 30px;
@@ -56,7 +56,7 @@
     color: #ffffff; 
     height: fit-content;  
 }
-#menupont2{
+.menupont2{
     background-color: #CB7006;
     border-radius: 30px;
     padding: 20px 20px 20px 20px;
@@ -118,7 +118,7 @@
     padding-top: 40px;
     margin: 0px;
 }
-#gomb2{
+.gomb2{
     background-color: #CB7006;
     border-radius: 30px;
     padding: 20px 100px 20px 100px;
@@ -126,7 +126,7 @@
     color: #ffffff;  
     font-size: 20px;
 }
-#gomb2:hover{
+.gomb2:hover{
     background-color: white;
     color: black;
 }
@@ -164,7 +164,7 @@
 .harmadikFejlec ul{
     text-align: left;
 }
-#lista{
+.lista{
     color: gray;
 }
 .harmadikFejlec li{
@@ -284,7 +284,7 @@
 .hal p{
     padding-bottom: 10px;
 }
-#gomb3{
+.gomb31{
     background-color: #CB7006;
     border-radius: 30px;
     padding: 20px 100px 20px 100px;
@@ -296,7 +296,7 @@
 .gomb3{
     margin: 35px 0px 0px 25px;
 }
-#gomb3:hover{
+.gomb31:hover{
     background-color: white;
     color: black;
 }
